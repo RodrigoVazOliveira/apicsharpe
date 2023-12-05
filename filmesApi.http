@@ -1,7 +1,3 @@
 @filmesApi_HostAddress = http://localhost:5176
 
-
-POST {{filmesApi_HostAddress}}/films
-Accept: application/json
-
 ###

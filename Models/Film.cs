@@ -2,7 +2,9 @@
 
 namespace filmesApi;
 
-public record Film([Required(ErrorMessage = "O campo Title é obrigatório")]
+public record Film(int Id,
+    
+                    [Required(ErrorMessage = "O campo Title é obrigatório")]
                     string Title,
                     
                     [Required(ErrorMessage = "O campo Gender é obrigatório")]
